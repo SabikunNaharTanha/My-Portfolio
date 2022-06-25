@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 2%;
+}
+
+.pink-color {
+    color: hotpink;
+}
+
+p {
+    text-align: justify;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: lavenderblush;
+    background-image: linear-gradient(rgb(255, 0, 149), rgb(255, 0, 85));
+    font-weight: 700;
+    border-radius: 5px;
+
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+.width-half {
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.width-half img {
+    width: 80%;
+
+}
+
+.flexible-area {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.header-boxcolor {
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, hotpink);
+    border-image-slice: 1;
+}
+
+.goals {
+    width: 23%;
+    color: mistyrose;
+    box-shadow: 1px snow;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+#first-box {
+    background-color: rgb(192, 108, 192);
+}
+
+#second-box {
+    background-color: rgb(247, 57, 120);
+}
+
+#third-box {
+    background-color: rgb(224, 168, 64);
+}
+
+.back-pic {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 5%;
+}
+
+.rightside-pic {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+footer h2 {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: hotpink;
+}
+
+
+footer {
+    padding: 15px;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    display: inline-block;
+
+}
+
+.interest1 {
+    width: 40%;
+    color: rgb(14, 13, 13);
+    background-image: linear-gradient(pink, white);
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.interest1 h2 {
+    font-weight: 700;
+    color: rgb(70, 0, 70);
+}
+
+.interest2 {
+    width: 40%;
+    color: rgb(14, 13, 13);
+    background-image: linear-gradient(pink, white);
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.interest2 h2 {
+    font-weight: 700;
+    color: rgb(70, 0, 70);
+}
